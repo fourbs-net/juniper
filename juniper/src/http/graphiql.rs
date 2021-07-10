@@ -87,7 +87,7 @@ pub fn graphiql_source(
 <head>
     <title>GraphQL</title>
     {stylesheet_source}
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/graphiql@0.17.5/graphiql.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/graphiql@1.4.2/graphiql.min.css">
 </head>
 <body>
     <div id="app"></div>
@@ -96,7 +96,7 @@ pub fn graphiql_source(
     <script src="//unpkg.com/graphiql-subscriptions-fetcher@0.0.2/browser/client.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/react/16.10.2/umd/react.production.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/react-dom/16.10.2/umd/react-dom.production.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/graphiql@0.17.5/graphiql.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/graphiql@1.4.2/graphiql.min.js"></script>
     <script>var GRAPHQL_URL = '{graphql_url}';</script>
     <script>var usingSubscriptions = {using_subscriptions};</script>
     <script>var GRAPHQL_SUBSCRIPTIONS_URL = '{graphql_subscriptions_url}';</script>
