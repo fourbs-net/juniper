@@ -274,7 +274,7 @@ where
 {
     let arms = variants.map(|v| {
         let variant = &v.ident;
-        quote!(#ident::#variant(ref v) => v.serialize(serializer),)
+        quote!(#ident::#variant(ref v) => ::juniper::serde::Serialize::serialize(v, serializer),)
     });
 
     quote! {
